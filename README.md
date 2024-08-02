@@ -48,7 +48,7 @@ Non essential parameters
 
 ``` 
 cd code 
-python main.py --input ../benchmark_verificationRule-SAT-Encoding/v68-c121-1.cnf --traffic ../virtual/binomial/1/v68-c121-1.txt
+python main.py --input ../benchmark_verificationRule-SAT-Encoding/v68-c121-1.cnf --traffic ../virtual/binomial/v68-c121-1.txt
 ```
 
 sat_optimize is our Adaptive DPLL SAT Solver in paper
