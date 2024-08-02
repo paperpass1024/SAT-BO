@@ -25,11 +25,7 @@ cmake 3.22
 ###### build
 
 ```
-cd code
-mkdir build
-cd build
-cmake ../
-make
+./build.sh
 ```
 #### Operating parameters
 
