@@ -1,0 +1,11 @@
+>>>>>load input.
+<<<<<load over.
+>>>>>load assignment prefers.
+solve one assignmentPrefer 0
+solve one assignmentPrefer 1
+>>>>>save output.
+time = 0.000963 seconds
+ans = 1
+solNum = 30
+>>>>>save solves:
+solves has save in file!

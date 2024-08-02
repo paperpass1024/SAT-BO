@@ -1,14 +1,14 @@
 code/SAT/build/*
 code/SAT/src/ubcsat/*
 
-log/solve/*
-log/weight/*
-log/pyLog/*
-log/log/*
+# log/solve/*
+# log/weight/*
+# log/pyLog/*
+# log/log/*
 
 
-ans/*
+# ans/*
 
 code/__pycache__/*
 
-*.log 
+# *.log 

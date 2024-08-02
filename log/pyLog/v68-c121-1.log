@@ -1,0 +1,5 @@
+Using dtype = torch.float64 
+Using device = cpu
+Starting from fbest = 1.578e+04
+40) New best: 1.591e+04
+50) New best: 1.602e+04
