@@ -66,15 +66,19 @@ class SAT:
     def runSAT(self, ctrlstr):
         config = ""
         if ctrlstr == "sat":
-            config = self.sat()
+            config = self.sat() + " 2> " + self.logPath
         elif ctrlstr == "randSample":
-            config = self.randSample()
+            config = self.randSample() + " 2> " + self.logPath
         order = self.satRunFilePath + " " + config
 
         # print(order)
+        # if((ctrlstr=="creatFlow")):
+        #     print(order)
         os.system(order)
 
     def sat(self):
+        config = ""
+        # ./ubcsat -alg walksat -gtimeout 30 -runs 40 -findunique 30 -i ./sample.cnf -r uniquesol ./1
         config = (
             self.inputPath
             + " "
