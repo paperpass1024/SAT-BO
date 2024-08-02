@@ -200,7 +200,7 @@ if __name__ == "__main__":
     # ========================================================
     if args.isUseBo == 1:
         sat = setSAT.SAT(args.input, args.traffic, args.runName, args.solveUppers)
-        sys.stdout = open(sat.pyLogPath, "w")
+        # sys.stdout = open(sat.pyLogPath, "w")
         ansInfo = optimize(current_directory, args.input, sat, int(args.iteration))
     else:
         sat = setSAT.SAT(
@@ -210,7 +210,7 @@ if __name__ == "__main__":
             args.solveUppers * int(args.iteration),
         )
         sat.timesLimit = sat.timesLimit * int(args.iteration)
-        sys.stdout = open(sat.pyLogPath, "w")
+        # sys.stdout = open(sat.pyLogPath, "w")
         ansInfo = getAnsWithoutBO(sat, int(args.iteration))
 
     # ========================================================
