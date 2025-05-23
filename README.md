@@ -57,5 +57,5 @@ sat_optimize is our Adaptive DPLL SAT Solver in paper
 ./log/weight //Variable attribute preference file
 ./log/solve //Solution file used to store SAT solver's output
 ./ans：//It is the solution file of traffic coverage corresponding to the calculation returned by SAT.
-./virtual //Three generated traffic environment paths
+./offline //Three generated traffic environment paths
 ```
